@@ -10,6 +10,9 @@ namespace BusinessMVC
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //Admin
+            //email: admin@gmail.com
+            //password: Admin123@
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
